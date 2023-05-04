@@ -1,34 +1,25 @@
-body{
-    margin: 0;
-    height: 100000px;
-    background-color: grey;
-    
+body {
+  margin: 0;
+  height: 100000px;
+  background-color: grey;
 }
 
-.container-fluid{
-    padding: 15px;  
-    
-    
+.container-fluid {
+  padding: 15px;
 }
-.capivara{
-    width: 80px;
+.capivara {
+  width: 80px;
 }
-.position-sticky{
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    
-   
-   
+.position-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
-.carrosel-principal{  
-    width: 560px;
-    margin: 0;
-    margin-left: 28%;
-   
+.carrosel-principal {
+  width: 560px;
+  margin: 0;
+  margin-left: 28%;
 }
-.back{
-    background-color: blue;
+.back {
+  background-color: blue;
 }
-
-
