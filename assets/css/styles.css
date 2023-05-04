@@ -1,7 +1,7 @@
 body{
     margin: 0;
     height: 100000px;
-    background-color: grey;
+    background-color: rgb(139, 24, 116);
     
 }
 
@@ -28,7 +28,8 @@ body{
    
 }
 .back{
-    background-color: blue;
+    background-color: #FC4F00;
 }
+
 
 
