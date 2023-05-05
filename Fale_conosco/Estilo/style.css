@@ -10,10 +10,9 @@ body {
 
 .titulo-contato {
   margin: 30px;
-  text-align: center;
   font-family: "Signika Negative", sans-serif;
+  font-size: 13px;
   color: #160028;
-  font-size: large;
 }
 
 .form {
@@ -58,6 +57,11 @@ select:invalid {
   width: 80px;
 }
 
+.logo-principal {
+  width: 140px;
+  margin-left: 15px;
+}
+
 @media (min-width: 490px) {
   .form {
     display: flex;
@@ -83,5 +87,11 @@ select:invalid {
   }
   .form2 .assunto {
     width: 205px;
+  }
+  .titulo-contato {
+    margin: 30px;
+    font-family: "Signika Negative", sans-serif;
+    color: #160028;
+    font-size: large;
   }
 }
