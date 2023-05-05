@@ -1,56 +1,49 @@
-body{
+*{
     margin: 0;
-    height: 100000px;
-    background-color: lightgray;
+    padding: 0;
+}
+body{
+    
+    overflow-x: hidden;
+    background-color: #5b4e8a;
     transition: background 0.5s linear, color 0.5s linear;
+}
+body.dark {
+    background-color: #2d3037;
+}
+.container-fluid {
+    padding: 1px;
+}
+.capivara {
+    width: 90px;
+    margin-left: 20px;
     
-   
 }
-body.dark{
-     background-color: #2d3037;
-    color: white;
-}
-.container-fluid{
-    padding: 3px;  
-    
-    
-}
-.capivara{
-    width: 80px;
-}
-.position-sticky{
-    position: sticky;
+.position-sticky {
+    position: fixed;
     top: 0;
     z-index: 3;
-    
-   
-   
 }
-.carrosel-principal{  
+.carrosel-principal {
     width: 560px;
     margin: 0;
     margin-left: 28%;
-    
 }
-
-
-.row{
-    margin: 50px;
+.row {
+    margin-top: 50px;
     gap: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
 }
-.container{
-    position: absolute;
-    top: 75%;
-    left: 10%;
+.container, .container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
-
-.container-2{
-    position: absolute;
-    top: 90%;
-    left: 15%;
-}
-label{
-    background-color: black;
+.bot {
+    background-color: white;
     border-radius: 40%;
     display: inline-block;
     width: 40px;
@@ -59,12 +52,67 @@ label{
     user-select: none;
     transition: background 0.5s linear;
 }
-body.dark label{
-    background-color: white;
+
+body.dark .container-dark span {
+    background-color: black;
 }
-input{
+
+input {
     visibility: hidden;
 }
 
+.back {
+   background-color: aquamarine;
+}
 
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+ .barra {
+    border: 25px solid white;
+    margin-top: 25px;
+    box-shadow: -1px 27px 10px -4px rgba(0, 0, 0, 0.75);
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    text-align: center;
+    
+} 
+section{
+    display: flex;
+     width: 100vw;
+     justify-content: center;
+     align-items: center;
+}
+.content-logo, #figure-logo{
+    width: 100px;
+    height: 100px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+.content-logo{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+.logo-principal{
+    width: 140px;
+    margin-left: 15px;
+
+}

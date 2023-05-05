@@ -1,5 +1,5 @@
-const btn = document.getElementById("btn")
+    const btn = document.getElementById("btn")
 
-btn.addEventListener("change" , (e)  => {
-    document.body.classList.toggle("dark", e.target.checked)
-})
+    btn.addEventListener("click" , (e)  => {
+        document.body.classList.toggle("dark", e.target.checked)
+    })
