@@ -1,24 +1,44 @@
 body {
-  background-color: rgb(226, 217, 217) !important;
+  background-color: lightgray !important;
+}
+
+.position-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
 .titulo-contato {
   margin: 30px;
   text-align: center;
   font-family: "Signika Negative", sans-serif;
-  color: #dc3545;
+  color: #160028;
   font-size: large;
 }
 
 .form {
+  display: flex;
+  flex-wrap: wrap;
   padding: 20px;
-  width: 90%;
+  justify-content: center;
   margin: 50px auto;
+  width: 90%;
+  height: auto;
   border: 0px solid;
   border-radius: 25px;
-  align-items: center;
-  background-color: midnightblue;
+  background-color: #160028;
   box-shadow: 14px 10px 22px 5px rgba(0, 0, 0, 0.55);
+}
+
+.nome,
+.email,
+.tel,
+.assunto {
+  order: -1;
+}
+
+.mensagem {
+  order: 1;
 }
 
 textarea {
@@ -32,4 +52,36 @@ select:invalid {
 
 #enviar {
   width: 100%;
+}
+
+.capivara {
+  width: 80px;
+}
+
+@media (min-width: 490px) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 50px auto;
+    border: 0px solid;
+    border-radius: 25px;
+    background-color: #160028;
+    box-shadow: 14px 10px 22px 5px rgba(0, 0, 0, 0.55);
+  }
+  .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .form2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .form2 .assunto {
+    width: 205px;
+  }
 }

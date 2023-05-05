@@ -21,6 +21,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="./trabalho.js" defer></script>
     <title>Site de noticias</title>
   </head>
 
@@ -86,17 +87,11 @@
               <li class="nav-item">
                 <a class="nav-link">Dicas</a>
               </li>
+              <div class="container-dark">
+                <input type="checkbox" id="btn" name="btn" />
+                <label for="btn"><i class="bi bi-moon-fill"></i></label>
+              </div>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Pesquisar"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Pesquisar
-              </button>
             </form>
           </div>
         </div>
@@ -107,47 +102,80 @@
         <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="./assets/images/Screenshot_1.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="./assets/images/Screenshot_1.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img
-                src="./assets/images/Screenshot_1.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="./assets/images/Screenshot_1.png" class="d-block w-100" alt="..." />
             </div>
             <div class="carousel-item">
-              <img
-                src="./assets/images/Screenshot_1.png"
-                class="d-block w-100"
-                alt="..."
-              />
+              <img src="./assets/images/Screenshot_1.png" class="d-block w-100" alt="..." />
             </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
         </div>
       </div>
     </div>
+    
+  <!-- Container 1 = 3 cards-->
+  <div class="container " id="1">
+    <div class="row">
+      <div class="card border-dark col-4  " style="width: 18rem;">
+        <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">dassaaasa bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+
+      </div>
+      <div class="card border-dark col-4 " style="width: 18rem;">
+        <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card border-dark col-4 " style="width: 18rem;">
+        <img src="./assets/images/Screenshot_1.png" class="card-img-top " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <!-- Container 2 = 2 cards-->
+      <div class="container-2">
+        <div class="row">
+          <div class="card border-dark  col-4 " style="width: 18rem;">
+            <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card border-dark col-4 " style="width: 18rem;">
+            <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+
   </body>
 </html>
