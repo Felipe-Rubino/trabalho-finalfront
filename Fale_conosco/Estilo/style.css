@@ -12,7 +12,7 @@ body {
   margin: 30px;
   font-family: "Signika Negative", sans-serif;
   font-size: 13px;
-  color: #160028;
+  color: #5b4e8a;
 }
 
 .form {
@@ -25,7 +25,7 @@ body {
   height: auto;
   border: 0px solid;
   border-radius: 25px;
-  background-color: #160028;
+  background-color: #5b4e8a;
   box-shadow: 14px 10px 22px 5px rgba(0, 0, 0, 0.55);
 }
 
@@ -70,7 +70,7 @@ select:invalid {
     margin: 50px auto;
     border: 0px solid;
     border-radius: 25px;
-    background-color: #160028;
+    background-color: #5b4e8a;
     box-shadow: 14px 10px 22px 5px rgba(0, 0, 0, 0.55);
   }
   .form1 {
@@ -91,7 +91,7 @@ select:invalid {
   .titulo-contato {
     margin: 30px;
     font-family: "Signika Negative", sans-serif;
-    color: #160028;
+    color: #5b4e8a;
     font-size: large;
   }
 }
