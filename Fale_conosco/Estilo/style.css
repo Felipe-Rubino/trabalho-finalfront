@@ -120,3 +120,31 @@ select:invalid {
 nav {
   box-shadow: -1px 1 0px 10px -4px rgba(0, 0, 0, 0.5);
 }
+
+.content-logo {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.content-logo,
+#figure-logo {
+  width: 100px;
+  height: 100px;
+  transform: translateY(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
