@@ -1,3 +1,9 @@
+const btn = document.getElementById("btn");
+
+btn.addEventListener("click", (e) => {
+  document.body.classList.toggle("dark", e.target.checked);
+});
+
 const form = document.querySelector("form");
 
 form.addEventListener("submit", function (e) {
