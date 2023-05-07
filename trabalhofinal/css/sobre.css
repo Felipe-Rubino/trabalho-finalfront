@@ -1,0 +1,33 @@
+body {
+    background-color:   #443a61;
+    margin: 0;
+    overflow-x: hidden;
+    
+
+}
+
+h1 {
+    background-color:  white;
+    box-shadow: 0px 0px 10px 5px black;    
+    border-radius: 5px;
+    text-align: center;
+    font-style: oblique;
+}
+
+ body p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 50px;
+}  
+
+h2 {
+    text-align: center;
+}
+.row{
+    margin-top: 50px;
+    gap: 10px;
+}
+
+

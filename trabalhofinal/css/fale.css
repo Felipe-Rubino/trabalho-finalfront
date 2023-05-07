@@ -10,10 +10,9 @@ body {
 
 .titulo-contato {
   margin: 30px;
-  text-align: center;
   font-family: "Signika Negative", sans-serif;
-  color: #160028;
-  font-size: large;
+  font-size: 13px;
+  color: #5b4e8a;
 }
 
 .form {
@@ -26,7 +25,7 @@ body {
   height: auto;
   border: 0px solid;
   border-radius: 25px;
-  background-color: #160028;
+  background-image: linear-gradient(180deg, #8076a3, #5b4e8a);
   box-shadow: 14px 10px 22px 5px rgba(0, 0, 0, 0.55);
 }
 
@@ -58,6 +57,11 @@ select:invalid {
   width: 80px;
 }
 
+.logo-principal {
+  width: 110px;
+  margin-left: 15px;
+}
+
 @media (min-width: 490px) {
   .form {
     display: flex;
@@ -66,7 +70,7 @@ select:invalid {
     margin: 50px auto;
     border: 0px solid;
     border-radius: 25px;
-    background-color: #160028;
+    background-color: #5b4e8a;
     box-shadow: 14px 10px 22px 5px rgba(0, 0, 0, 0.55);
   }
   .form1 {
@@ -84,4 +88,35 @@ select:invalid {
   .form2 .assunto {
     width: 205px;
   }
+  .titulo-contato {
+    margin: 30px;
+    font-family: "Signika Negative", sans-serif;
+    color: #5b4e8a;
+    font-size: large;
+  }
+  body.dark .container-dark span {
+    background-color: black;
+  }
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 800px;
+}
+
+.bot {
+  background-color: white;
+  border-radius: 40%;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.5s linear;
+}
+
+nav {
+  box-shadow: -1px 1 0px 10px -4px rgba(0, 0, 0, 0.5);
 }

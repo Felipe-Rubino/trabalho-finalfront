@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
+    defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="./trabalho.js" defer></script>
+  <title>Oráculo</title>
+</head>
+
+<body>
+  <header class="position-sticky">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo-principal" src="assets/images/Roxo_372x.png" 
+            alt="Logo do site" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active link-light" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light" href="sobrenos.html" target="_blank"> Sobre  </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-light" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item link-primary" href="#6">Jogos</a></li>
+                <li><a class="dropdown-item link-warning" href="#2">Anime</a></li>
+                <li><a class="dropdown-item link-danger" href="#3">Animais</a></li>
+                <li><a class="dropdown-item link-success" href="#4">E-Sports</a></li>
+                <li><a class="dropdown-item link-warning " href="#5">Filmes</a></li>
+                <li><a class="dropdown-item link-primary" href="#">Fes</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item link-light" href="#">Inicio</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light"></a>
+            </li>
+            <div class="container-dark">
+              <span class="bot" id="btn"> <i class="bi bi-moon-fill"></i></span>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="back">
+    <div class="carrosel-principal  ">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/horgwarts_legacy.png" height="299px"class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/Attack-on-Titan-Logo.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/lol.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="barra">
+      <h3> <img src="assets/images/console.png" alt="Controle de jogo" srcset="">Jogos</h3>
+    </div>
+  </div>
+  <button >
+  <div class="content-logo"   id="bot" >
+    <div class="divover" ><p> <b>Clique para falar conosco</b> </p > </div>
+      <a href="faleConosco.html" target="_blank"> 
+    <img onmouseover="mouseOver()" onmouseout="mouseOut()" class="capivara-logo figure-logo "  src="assets/images/logo.png " 
+           alt="Logo do site"/> 
+          </a>
+  </div>
+  </button>
+  
+
+
+  <!-- Container 1 = 3 cards-->
+  <section id="6">
+    <div class="container " >
+      <div class="row">
+        <div class="card border-light mb-3 col-4  " id="card" style="width: 18rem;">
+          <img src="assets/images/horgwarts_legacy.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Hogwarts</b></h5>
+            <p class="card-text"><b>Um jogador foi para rua vestido com trajes da Sonserina corria atrás das pessoas com fogos de artificio na mão e gritando feitiços do jogo.</b></p>
+            <a href="#" class="btn btn-primary"> Matéria </a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/lol.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title "><b>League of legends</b></h5>
+            <p class="card-text"><b>Após suporte farmar a catapulta, adc joga o teclado na cabeça dele e em seguida parte para agressão corporal.</b></p>
+            <a href="#" class="btn btn-primary"> Matéria </a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Super_Mario.png" height="150px" width="100px"class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Super mario </b></h5>
+            <p class="card-text"><b> Novo jogo do Mario, Super Mario Maritimo é um jogo que se baseia no mundo aquático onde ele enfrenta diversas dificultades para encontrar uma Pérola perdida.</b></p>
+            <a href="#" class="btn btn-primary">Matéria </a>
+          </div>
+        </div>
+        <!-- Container 2 = 2 cards-->
+        <div class="container-2">
+          <div class="row">
+            <div class="card border-light mb-3  col-4 " id="card" style="width: 18rem;">
+              <img src="./assets/images/Attack-on-Titan-Logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Shingeki no kyojin</b></h5>
+                <p class="card-text"> <b>Esse game já está dando o que falar, é uma modalidade survive onde você precisa se inserir a alguma tropa e fazer as missões com seus amigos.</b></p>
+                <a href="#" class="btn btn-primary">Matéria</a>
+              </div>
+            </div>
+            <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+              <img src="./assets/images/The_Elder_Scrolls_V_-_Skyrim_logo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b> The Elder Scroll V: Skyrim</b></h5>
+                <p class="card-text"><b>Após 2468 horas de jogo, jogador desmaia durante uma jogatina e tem que ser levado ao hospital. Amigos dizem que seu estado é estável.</b></p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+  </section>
+  <div>
+    <div class="barra">
+      <h3><img src="assets/images/otaku.png" alt="Personagem de anime" srcset=""> Animes</h3>
+    </div>
+  </div>
+  <section id="2">
+    <div class="container " id="1">
+      <div class="row">
+        <div class="card border-light mb-3 col-4  " id="card" style="width: 18rem;">
+          <img src="./assets/images/snk4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Attack on titan</b></h5>
+            <p class="card-text"><b>Haja coração para quem acompanhou a primeira metade da última temporada de Ataque do Titã e teve que esperar mais de um ano para ver a segunda. A segunda metade trouxe a continuação da última jornada de Eren e de seus amigos de Paradis.</b></p>
+            <a href="#" class="btn btn-primary"> Matéria </a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/demon-slayer4k.jpg" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title "><b>Demon slayer</b></h5>
+            <p class="card-text">
+              <b>Demon Slayer já conta com uma temporada e um filme, e vem mais por aí! A aventura de Tanjiro Kamado e dos demais caçadores de demônios da Demon Sayer Corps chega ao aguardado Arco da Vila dos Ferreiros.</b></p>
+            <a href="#" class="btn btn-primary">Matéria</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Dr.-STONE-New-World.webp" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Dr Stone: Novo mundo</b></h5>
+            <p class="card-text">
+              <b>Um dos animes mais vistos pelo mundo, Dr Stone retorna em 2023 com a nova temporada, Dr Stone: Novo Mundo. Na trama original, o mundo foi atingido por um misterioso fenômeno que transformou toda a humanidade em pedra.</b></p>
+            <a href="#" class="btn btn-primary">Matéria</a>
+          </div>
+        </div>
+        <!-- Container 2 = 2 cards-->
+        <div class="container-2">
+          <div class="row">
+            <div class="card border-light mb-3  col-4 " id="card" style="width: 18rem;">
+              <img src="./assets/images/Mashle-Ma.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Mashle</b></h5>
+                <p class="card-text"><b>
+                  Adaptação do mangá Mashle: Magia e Músculos, este anime se passa em um mundo mágico no qual a posição social de cada pessoa é estabelecida de acordo com seu nível de poder e habilidade em magia. </b> 
+                  </p>
+                <a href="#" class="btn btn-primary">Matéria </a>
+              </div>
+            </div>
+            <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+              <img src="./assets/images/Tokyo-Revengers-Segunda-temporada.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"><b>Tokyo revengers</b></h5>
+                <p class="card-text"><b>Aqueles que já conferiram a aclamada primeira temporada de Tokyo Revengers, com certeza, não viam a hora da estreia do segundo ano do anime. Esta segunda temporada adapta o Arco Seiya Kessen-hen, </b></p>
+                <a href="#" class="btn btn-primary">Matéria </a>
+              </div>
+            </div>
+  </section>
+  <div>
+    <div class="barra">
+      <h3> <img src="assets/images/dog.png" alt="Cachorro laranja " srcset="">Animais</h3>
+    </div>
+  </div>
+  <section id="3">
+    <div class="container " id="1">
+      <div class="row">
+        <div class="card border-light mb-3 col-4  " id="card"  style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>League Of Legends</b></h5>
+            <p class="card-text"><b>Veja noticias sobre a LOUD no MSI</b></p>
+            <a href="#" class="btn btn-primary"> Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Container 2 = 2 cards-->
+        <div class="container-2">
+          <div class="row">
+            <div class="card border-light mb-3  col-4 " id="card" style="width: 18rem;">
+              <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card border-light mb-3 col-4 " id="card"style="width: 18rem;">
+              <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+  </section>
+  <div>
+    <div class="barra">
+      <h3> <img src="assets/images/desktop.png" alt="Computador com uma imagem de jogo" srcset="">E-Sports</h3>
+    </div>
+  </div>
+  <section id="4">
+    <div class="container " id="1">
+      <div class="row">
+        <div class="card border-light mb-3 col-4  " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>League Of Legends</b></h5>
+            <p class="card-text"><b>Veja noticias sobre a LOUD no MSI</b></p>
+            <a href="#" class="btn btn-primary"> Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Container 2 = 2 cards-->
+        <div class="container-2">
+          <div class="row">
+            <div class="card border-light mb-3  col-4 "id="card" style="width: 18rem;">
+              <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card border-light mb-3 col-4 "id="card" style="width: 18rem;">
+              <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+  </section>
+  <div class="barra">
+    <h3> <img src="assets/images/video-camera.png" alt="Câmera de filme" srcset="">Filmes</h3>
+  </div>
+</div>
+  <section id="5">
+    <div class="container " id="1">
+      <div class="row">
+        <div class="card border-light mb-3 col-4  " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>League Of Legends</b></h5>
+            <p class="card-text"><b>Veja noticias sobre a LOUD no MSI</b></p>
+            <a href="#" class="btn btn-primary"> Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+          <div class="card-body ">
+            <h5 class="card-title ">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card border-light mb-3 col-4 " id="card" style="width: 18rem;">
+          <img src="./assets/images/Screenshot_1.png" class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <!-- Container 2 = 2 cards-->
+        <div class="container-2">
+          <div class="row">
+            <div class="card border-light mb-3  col-4 "id="card" style="width: 18rem;">
+              <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card border-light mb-3 col-4 "id="card" style="width: 18rem;">
+              <img src="./assets/images/Screenshot_1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+  </section>
+  
+
+
+
+
+
+</body>
+
+</html>

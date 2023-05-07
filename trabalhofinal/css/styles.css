@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-color: #443a61; 
+    transition: background 0.5s linear, color 0.5s linear;
+}
+body.dark {
+    background-color: #2d3037;
+}
+
+.container-fluid {
+    padding: 1px;
+}
+.capivara {
+    width: 90px;
+    margin-left: 20px;
+}
+.position-sticky {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.carrosel-principal {
+    width: 560px;
+    margin: 0;
+    margin-left: 28%;
+    padding: 10px;
+}
+.row {
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.container, .container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.bot {
+    background-color: white;
+    border-radius: 40%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.5s linear;
+}
+
+body.dark .container-dark span {
+    background-color: black;
+    
+}
+
+input {
+    visibility: hidden;
+}
+
+.back {
+    background-color: #2d3037;
+
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    
+}
+
+ .barra {
+    border: 25px solid white;
+    margin-top: 25px;
+    box-shadow: -1px 15px 10px -4px rgba(0, 0, 0, 0.75);
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: white;
+    text-align: center;
+    
+} 
+section{
+    display: flex;
+     width: 100vw;
+     justify-content: center;
+     align-items: center;
+}
+.content-logo, .figure-logo{
+    width: 100px;
+    height: 100px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+.content-logo{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+} 
+.logo-principal{
+    width: 130px;
+    margin-left: 13px;
+    
+}
+#card{
+    border: 5px solid black !important;
+}
+nav{
+    box-shadow: -1px 1 0px 10px -4px rgba(0, 0, 0, 0.50);    
+      
+} 
+#bot p{
+    display: none;
+}
+.divover p{
+    background-color: white;
+    border-radius: 15px;
+}

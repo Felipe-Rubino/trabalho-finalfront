@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Fale_conosco/Estilo/style.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -18,13 +17,16 @@
       defer
     ></script>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@700&display=swap" rel="stylesheet">
+    <script src="trabalho.js" defer></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/e7c0a0bb-bb0f-436c-9267-7458474d9925-removebg-preview.png">
+    <link rel="stylesheet" href="css/fale.css">
     <title>Fale Conosco</title>
   </head>
   <header class="position-sticky">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark " data-bs-theme=dark>
-      <div class="container-fluid ">
-        <a class="navbar-brand" href="#"><a target="_blank" href="../trabalho.html"><img class="capivara" src="../assets/images/capivara.png"
-          alt="Logo do site"></a></a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo-principal" src="./assets/images/Roxo_372x.png"
+            alt="Logo do site" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -32,33 +34,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../trabalho.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="trabalho.html" target="">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Jogos</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Mais
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+              <a class="nav-link link-light" href="sobrenos.html" target="_blank"> Sobre  </a>
+    
             <li class="nav-item">
-              <a class="nav-link ">Dicas</a>
+              <a class="nav-link link-light"></a>
             </li>
+              <!-- <div class="container-dark">
+                <span class="bot" id="btn"> <i class="bi bi-moon-fill"></i></span>
+              </div> -->
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-          </form>
         </div>
       </div>
     </nav>
@@ -66,6 +53,8 @@
   <body>
     <div class="titulo-contato">
       <h1>CONTATO</h1>
+      <p>Olá, este é o Fale Conosco do Oráculo, o site de notícias que reúne o melhor dos universos de filmes, animes, E-sports e games! Queremos saber o que você pensa sobre nossas matérias, sugestões de conteúdo, críticas construtivas, enfim, tudo o que possa enriquecer ainda mais nosso portal de notícias. Compartilhe sua opinião conosco e ajude-nos a aprimorar o nosso trabalho, para oferecer sempre o melhor para você. Mande sua mensagem agora mesmo! O Oráculo agradece a sua participação.</p>
+      <hr>
     </div>
     <div class="form">
       <form>
@@ -76,7 +65,7 @@
             type="text"
             id="nome"
             name="nome"
-            placeholder="Nome"
+            placeholder="Nome*"
             required
           />
         </div>
@@ -86,7 +75,7 @@
             type="email"
             id="email"
             name="email"
-            placeholder="Endereço de email"
+            placeholder="Endereço de email*"
             required
           />
         </div>
@@ -98,7 +87,7 @@
               type="tel"
               id="tel"
               name="tel"
-              placeholder="Telefone"
+              placeholder="Telefone*"
               required
             />
           </div>
@@ -119,12 +108,15 @@
             <textarea
               id="mensagem"
               name="mensagem"
-              maxlength="500"
-              placeholder="Digite aqui sua mensagem"
+              placeholder="Digite aqui sua mensagem*"
               required
             ></textarea>
           </div>
-          <input type="submit" id="enviar" name="enviar" value="Enviar" class="btn btn-light" />
+          <input type="submit" id="enviar" name="enviar" value="Enviar" class="btn btn-light"/>
+        </div>
+        <div class="content-logo">
+          <img class="capivara-logo" src="assets/images/logo.png"
+                  alt="Logo do site" id="figure-logo"/>
         </div>
       </form>
     </div>
