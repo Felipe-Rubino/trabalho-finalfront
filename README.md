@@ -8,17 +8,18 @@ Página de Detalhes - Uma página que mostre informações adicionais sobre algu
 Página Sobre - Contendo as informações dos integrantes do grupo;</br></br>
 Fale Conosco - Formulário com inputs para Nome, Email e Mensagem; Ao clicar em enviar, é necessário fazer uma validação se tem algum campo vazio. Se tiver, a função precisa retornar uma mensagem para o usuário informando que ele deve preencher todos os campos e encerrar a função. Caso esteja tudo certo, os dados devem ser armazenados no localStorage e os campos do formulário devem ser "resetados", apagados;</br></br>
 Utilizar pelo menos 3 componentes do boostrap, como botões, formulários, navbar, carousel, modal, etc;</br></br>
-Botão para alterar algum estilo via javascript (por exemplo, dark mode);</br></br>Pontos extras </br></br>
-Pontos extras </br></br>
+Botão para alterar algum estilo via javascript (por exemplo, dark mode); </br> <p> <p>
+
+**Pontos extras** </br></br>
 Layout totalmente responsivo, seja com breakpoints ou media queries;</br></br>
 Alguma página exibindo informação proveniente de alguma api;</br></br>
 Utilizar métodos de manipulação de array, como map e filter.</br></br>
 
 ## Tecnologias utilizadas </br>
-HTML </br>
-CSS </br>
+HTML5 </br>
+CSS3 </br>
 JavaScript </br>
-Bootstrap </br>
+Bootstrap 5.3 </br>
 
 ## Equipe </br>
 [Matheus cruz](https://github.com/MatheusCodeCruz) </br>
