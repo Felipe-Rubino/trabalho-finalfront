@@ -21,7 +21,7 @@ JavaScript </br>
 Bootstrap </br>
 
 ## Equipe </br>
-[Matheus cruz](github.com/MatheusCodeCruz) </br>
+[Matheus cruz](https://github.com/MatheusCodeCruz) </br>
 [Maxwel Ferreira](https://github.com/MaxFerreiraA) </br>
 [Felipe Rubino](https://github.com/Felipe-Rubino) </br>
 [Marcos Haubrich](https://github.com/MarcosHBritto) </br>
