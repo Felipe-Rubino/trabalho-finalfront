@@ -26,3 +26,6 @@ Bootstrap </br>
 [Felipe Rubino](https://github.com/Felipe-Rubino) </br>
 [Marcos Haubrich](https://github.com/MarcosHBritto) </br>
 [Rafael Vieira](https://github.com/RafaelVieiraCamara) </br>
+
+## Docente
+[Joao Felipe] (https://github.com/brjoaof)
