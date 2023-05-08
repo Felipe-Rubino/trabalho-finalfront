@@ -28,4 +28,4 @@ Bootstrap </br>
 [Rafael Vieira](https://github.com/RafaelVieiraCamara) </br>
 
 ## Docente
-[Joao Felipe] (https://github.com/brjoaof)
+[Joao Felipe](https://github.com/brjoaof)
