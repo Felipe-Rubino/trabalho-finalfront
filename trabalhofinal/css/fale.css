@@ -1,5 +1,6 @@
 body {
   background-color: lightgray !important;
+  overflow-x: hidden;
 }
 
 .position-sticky {
@@ -58,8 +59,8 @@ select:invalid {
 }
 
 .logo-principal {
-  width: 110px;
-  margin-left: 15px;
+  width: 130px;
+  margin-left: 13px;
 }
 
 @media (min-width: 490px) {
@@ -120,3 +121,31 @@ select:invalid {
 nav {
   box-shadow: -1px 1 0px 10px -4px rgba(0, 0, 0, 0.5);
 }
+#bot p{
+  display: none;
+}
+
+.content-logo, #figure-logo{
+  width: 100px;
+  height: 100px;
+  transform: translateY(0px);
+  animation: float 5s ease-in-out infinite;
+}
+.content-logo{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+@keyframes float {
+  0% {
+      transform: translateY(0px);
+  }
+
+  50% {
+      transform: translateY(-5px);
+  }
+
+  100% {
+      transform: translateY(0px);
+  }
+} 

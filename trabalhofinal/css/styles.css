@@ -24,10 +24,8 @@ body.dark {
     z-index: 3;
 }
 .carrosel-principal {
-    width: 560px;
+    width: 100%;
     margin: 0;
-    margin-left: 28%;
-    padding: 10px;
 }
 .row {
     margin-top: 50px;
@@ -45,12 +43,14 @@ body.dark {
 .bot {
     background-color: white;
     border-radius: 40%;
-    display: inline-block;
+    display: block;
     width: 40px;
     height: 40px;
     cursor: pointer;
     user-select: none;
     transition: background 0.5s linear;
+    float: left;
+    margin: 10px auto;
 }
 
 body.dark .container-dark span {
@@ -71,7 +71,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 800px;
+    
     
 }
 
@@ -100,7 +100,8 @@ section{
 .content-logo{
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    bottom: 80px;
+    z-index: 3;
 }
 @keyframes float {
     0% {
@@ -108,7 +109,7 @@ section{
     }
 
     50% {
-        transform: translateY(-5px);
+        transform: translateY(-10px);
     }
 
     100% {
@@ -134,3 +135,57 @@ nav{
     background-color: white;
     border-radius: 15px;
 }
+h3{
+    color: white;
+    text-align: center;
+    
+}
+footer {
+    background-color: #160028;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+      text-align: center;
+      font-size: 14px;
+  }
+  
+  footer a {
+    color: #8c52ff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+@media (min-width: 490px) {
+    .carrosel-principal {
+      width: 50%;
+      margin: 0;
+      margin-left: 28%;
+    }
+    .content-logo {
+      position: fixed;
+      right: 30px;
+      bottom: 80px;
+    }
+    #btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    body.dark .container-dark span {
+        background-color: black;
+        justify-content: center;
+      }
+      .bot {
+        float: right;
+        display: block;
+      }
+  }
+  .container-dark {
+    margin-right: 10px;
+  }
